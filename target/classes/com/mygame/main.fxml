@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="scenePane" prefHeight="189.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mygame.MainController">
+   <children>
+      <Pane layoutX="22.0" layoutY="25.0" prefHeight="139.0" prefWidth="414.0">
+         <children>
+            <Button fx:id="bScene1" layoutX="158.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToScene" text="Player vs Player" />
+            <Button layoutX="54.0" layoutY="100.0" mnemonicParsing="false" onAction="#exitMenu" prefHeight="25.0" prefWidth="319.0" text="Exit" />
+            <CheckBox fx:id="checkBox" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" text="Alternative Mode" />
+            <Button fx:id="ai" layoutX="164.0" layoutY="54.0" mnemonicParsing="false" onAction="#aiMenu" text="Player vs Cpu" />
+            <CheckBox fx:id="mycheck" layoutX="11.0" layoutY="46.0" mnemonicParsing="false" text="Test" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
